@@ -6,7 +6,7 @@ int result = 0;
 
 int main(){
 
-    const char first_str[5] = "Love";
+    const char first_str[5] = "Lovee";
     const char second_str[5] = "Lov";
     //Actual use only 4 char, last one is for terminating null
 

@@ -7,7 +7,6 @@ int main()
 {
     float delta,sigma,mu,x,xmin,xmax;
     double fx,sum;
-  
     //Gausian is a probabilty thing.
     //The entire code plot the probability of something happening. in this case is weather temperature
     //In prev test, base on weather temperature.
@@ -20,8 +19,8 @@ int main()
     //Delta is the step size of each probabilty measured.
     //if is 0.01, then from xMin, 22.5, next step size is f(22.51), f(22.52)
     //0.01 per step measured probabilty          
-    xmin=22.5;             
-    xmax=25.5;                  
+    xmin=22.5; // mu - 3(sigma)         
+    xmax=25.5; // mu + 3(sigma) 
     sum=0;     
     
     //Very important thing to note here is, if x-mu is too huge difference. the value may turn 0.00000e+00
